@@ -6,7 +6,9 @@ If you're asked to create a database for an online teaching platform, how would 
 - Over 20000 student are enrolled to the platform plans.
 - The platform has over 50 instructors and 10 coordinators.
 - Around 1000 courses can be found on the platform's site.
+- The price range of courses is 1000-6000.
 - The platform provides their students with 4 different diplomas (Laravel backend, Node.js backend... etc.).
+- The price range of diplomas is 3500-12000
 - Courses can be categorized (Web, Mobile, JavaScript... etc.)
 
 Translate the previous data set into valid SQL queries to create the platform database.
