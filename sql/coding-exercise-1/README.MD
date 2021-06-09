@@ -12,7 +12,3 @@ If you're asked to create a database for an online teaching platform, how would 
 Translate the previous data set into valid SQL queries to create the platform database.
 
 Note: Try as much as possible to design a scalable database by dividing the data set into various tables where you see fit.
-
-## Helping diagrams
-
-![Helping diagram](diagram1.png)
