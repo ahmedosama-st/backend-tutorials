@@ -1,4 +1,4 @@
-# SQL code exercise #4
+# SQL code exercise #3
 
 ## Human traffic of a stadium
 
