@@ -10,6 +10,7 @@ the values are the second parameter `array`.
 
 1. The function `arrayCombine` defined in `ex.php` should accept `2` arguments.
 2. It should `return` an `array` where its keys are the first supplied `array` and the values are the second `array`.
+3. It should `return` `false` if the size of one array isn't matching the other's size.
 
    Ex:
 
@@ -18,4 +19,4 @@ the values are the second parameter `array`.
     var_dump($result); // $result is now ['one' => 1, 'two' => 2]
    ```
 
-3. DO NOT coalesce any argument or cast to any type.
+4. DO NOT coalesce any argument or cast to any type.
