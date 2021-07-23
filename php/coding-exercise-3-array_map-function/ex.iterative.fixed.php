@@ -2,11 +2,9 @@
 
 function arrayMap(callable $mapper, array $array): array
 {
-    $result = [];
-
-    foreach ($array as $item) {
-        $result[] = $mapper($item);
+    foreach ($array as $index => $item) {
+        $array[$index] = $mapper($item);
     }
 
-    return $result;
+    return $array;
 }
