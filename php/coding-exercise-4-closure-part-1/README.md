@@ -1,4 +1,4 @@
-# Coding exercise #4
+# Coding exercise #4 - part #1
 
 Consider the following situation and try to implement a suitable function
 to solve following problem.

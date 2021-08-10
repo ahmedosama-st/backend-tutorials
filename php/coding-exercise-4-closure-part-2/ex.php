@@ -1,0 +1,19 @@
+<?php
+
+function SinglyLinkedList(array $items): callable
+{
+    return fn () => null;
+}
+
+$arr= [1, 2, 3, 4];
+
+$next  = SinglyLinkedList($arr);
+
+var_dump($next instanceof Closure);
+
+foreach ($arr as $item) {
+    var_dump($next()['value'] == $item);
+}
+
+var_dump($next()['value'] === null);
+var_dump($next()['done']);
