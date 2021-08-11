@@ -21,9 +21,11 @@ function memoizedFactorial()
 
 $f = memoizedFactorial();
 
-var_dump($f(6));
-var_dump($f(5));
-var_dump($f(4));
-var_dump($f(3));
-
-var_dump($counter);
+var_dump($f(6) == 720);
+var_dump($counter == 6);
+var_dump($f(5) == 120);
+var_dump($counter == 6);
+var_dump($f(4) == 24);
+var_dump($counter == 6);
+var_dump($f(3) == 6);
+var_dump($counter == 6);

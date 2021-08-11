@@ -1,4 +1,4 @@
-# PHP coding exercise #1
+# PHP coding exercise #3
 
 The `array_map` function is used to apply a `mapping` function to every item in a provided `array`
 

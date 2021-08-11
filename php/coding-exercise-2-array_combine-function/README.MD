@@ -1,4 +1,4 @@
-# PHP coding exercise #1
+# PHP coding exercise #2
 
 The `array_combine` function in `php` is used to make an `array` out of two other `arrays` where provided
 through its parameters and produces an `array` with the keys supplied from the first parameter `array` and
