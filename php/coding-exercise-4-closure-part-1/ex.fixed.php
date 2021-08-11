@@ -2,8 +2,6 @@
 
 function fibonacci(int $index): array
 {
-    $series = [];
-
     function go(int $idx, int $current = 0, int $next = 1)
     {
         if ($idx == 0) {
@@ -17,12 +15,10 @@ function fibonacci(int $index): array
         return go($idx - 1, $next, $current + $next);
     }
 
-    $series[$index] = go($index);
-
-    return ['current' => $series[$index], 'next' => function () use (&$index, &$series) {
+    return ['current' => go($index), 'next' => function () use (&$index) {
         $index++;
 
-        return $series[$index] = go($index);
+        return go($index);
     }];
 }
 

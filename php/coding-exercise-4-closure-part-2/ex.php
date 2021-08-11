@@ -1,13 +1,13 @@
 <?php
 
-function SinglyLinkedList(array $items): callable
+function CustomGenerator(array $items): callable
 {
     return fn () => null;
 }
 
 $arr= [1, 2, 3, 4];
 
-$next  = SinglyLinkedList($arr);
+$next  = CustomGenerator($arr);
 
 var_dump($next instanceof Closure);
 
